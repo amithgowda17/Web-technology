@@ -1,0 +1,26 @@
+#paragraphname{
+    color:blueviolet;
+    font-weight: bolder;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+}
+
+body{
+    background-image:url("https://tse2.mm.bing.net/th?id=OIP.C0POIWUyxTxZ_AeAG2lW3AHaDt&pid=Api&P=0&h=180") ;
+    background-repeat: no-repeat;
+}
+
+#para{
+
+    padding-left: 200px;
+    border: solid 3px red;
+    margin: 50px;
+    
+}
+
+#layout{
+    padding-left: 100px;
+    border: solid 4px black;
+    margin:10px
+}
