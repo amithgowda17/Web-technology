@@ -1,0 +1,29 @@
+.trans{
+    height: 10rem;
+    width: 10rem;
+    background-color: blueviolet;
+    transition: width 5s;
+    transition-timing-function:ease-out;
+    transition-delay: 5s;
+    transition-duration: 10s;
+    translate: 10% 10%;
+    transition: transform 2s,height 2s,width 2s;
+}
+
+.trans:hover{
+    width: 10rem;
+    height: 10rem;
+    transform: rotate(360deg);
+}
+
+#image{
+  
+    height: 25rem;
+    width: 25rem;
+    position: absolute;
+    z-index: -1;
+}
+
+#message{
+    margin-top: 10rem;
+}

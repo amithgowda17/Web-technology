@@ -1,0 +1,35 @@
+.animation{
+
+    height: 10rem;
+    width: 10rem;
+    animation-name: cardTest;
+    animation-duration: 10s;
+    animation-iteration-count: 5;
+   
+
+}
+
+
+@keyframes cardTest {
+
+    from{ margin-top: 20px;background-color: aqua;}
+    to{margin-left: 25px;background-color: red;}
+    
+}
+
+.box{
+    height: 10rem;
+    width: 10rem;
+    animation-name: boxAnimation;
+    animation-duration: 10s;
+}
+
+@keyframes boxAnimation {
+
+    0%{margin-left: 0rem;background-color: black;}
+    25%{margin-left: 2rem;background-color: burlywood;}
+    50%{margin-top: 2rem;margin-left: 2rem;background-color: brown;}
+    75%{margin-top: 2rem;margin-left: 0rem;background-color: chartreuse;}
+    100%{margin-top: 0rem;margin-left: 0rem;background-color: cornflowerblue;}
+    
+}
